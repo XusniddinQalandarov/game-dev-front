@@ -9,12 +9,12 @@ export const routes: Routes = [
       {
         path: '',
         loadComponent: () => import('./features/landing/landing-page.component').then(m => m.LandingPageComponent)
-      },
-      {
-        path: 'login',
-        loadComponent: () => import('./features/auth/login.component').then(m => m.LoginComponent)
       }
     ]
+  },
+  {
+    path: 'login',
+    loadComponent: () => import('./features/auth/login.component').then(m => m.LoginComponent)
   },
   {
     path: '',
