@@ -48,15 +48,12 @@ Thumbs.db
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-.utmp/
-/Library/
-/Temp/
-/Obj/
-/Build/
-/Builds/
-/Logs/
-/UserSettings/
-*.log
+src/Sudoku/Library/
+src/Sudoku/Temp/
+src/Sudoku/Build/
+src/Sudoku/Logs/
+src/Sudoku/UserSettings/
+src/Sudoku/.vscode/
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
